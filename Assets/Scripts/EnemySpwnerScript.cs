@@ -10,15 +10,9 @@ public class EnemySpwnerScript : MonoBehaviour
     void Start()
     {
         int i=Random.Range(0,2);
-        GameObject obj= Instantiate(enemy[i]);
-        obj.transform.parent=ground.transform;//objをthisの子にする
-        float random=Random.Range(-1.8f,1.8f);
-        obj.transform.position=new Vector3(random,this.transform.position.y,this.transform.position.z);//子をランダムな位置に配置させる
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        GameObject obj= Instantiate(enemy[i]);//blueEnemyかredEnemyのどちらかをランダムで生成。生成したenemy[i]を↓で変数「obj」として扱わせる
+        obj.transform.parent=ground.transform;//objをthisの子にする(子にしないとgroundの外に生成されてしまう)
+        float random=Random.Range(-1.8f,1.8f);//-1.8f,1.8fはGroundの両端の座標
+        obj.transform.position=new Vector3(random,this.transform.position.y,this.transform.position.z);//Groundの端から端までのランダムな箇所にobjを配置
     }
 }

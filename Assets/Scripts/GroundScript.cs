@@ -8,12 +8,8 @@ public class GroundScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Destroy(this.gameObject,5.0f);
+        Destroy(this.gameObject,10.0f);//PCが重くなるのを防ぐために通過後にしばらく経ったらGroundを消す
     }
 
-    // Update is called once per frame
-    void Update()//1秒間で60回
-    {
-       
-    }
+   
 }

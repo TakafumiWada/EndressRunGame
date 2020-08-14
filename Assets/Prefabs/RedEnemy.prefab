@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 6198204538662252891}
   - component: {fileID: 7061873997727527159}
   - component: {fileID: 1548294342039151065}
-  - component: {fileID: 3807996718579729561}
   m_Layer: 0
   m_Name: RedEnemy
   m_TagString: Untagged
@@ -60,7 +59,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: c3c61d93dbf034d5795c778608f8d3d2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -94,15 +93,3 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.99999994, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &3807996718579729561
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2563708104751938022}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d839cd0e3c4b34d4bb9346b916ca1ee4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

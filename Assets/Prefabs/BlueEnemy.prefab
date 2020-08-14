@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 2047608636604406026}
   - component: {fileID: 1717277999701591867}
   - component: {fileID: 6561389805468825558}
-  - component: {fileID: 1238198963036303443}
   m_Layer: 0
   m_Name: BlueEnemy
   m_TagString: Untagged
@@ -60,7 +59,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: f8f0d15ae1f6b4033bfb3a399d8ada9f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -94,15 +93,3 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.99999994, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1238198963036303443
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2464394024469113157}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f50c307f69744b5399216c7358a96f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
