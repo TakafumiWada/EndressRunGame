@@ -215,7 +215,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ground:
-  - {fileID: 1246425204484710123}
   - {fileID: 1246425204484710123, guid: 59d6c698179f4484f9922a6fcb45e580, type: 3}
   - {fileID: 1246425204484710123, guid: 65937bb39a8f14562bce4d265ca6bd6d, type: 3}
 --- !u!1 &8411661915550613620

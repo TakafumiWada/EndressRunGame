@@ -218,7 +218,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ground:
   - {fileID: 1246425204484710123, guid: 114df30d51bf54d88b44df7b20fe12d4, type: 3}
-  - {fileID: 1246425204484710123}
   - {fileID: 1246425204484710123, guid: 65937bb39a8f14562bce4d265ca6bd6d, type: 3}
 --- !u!1 &2676354223666319507
 GameObject:

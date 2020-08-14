@@ -218,7 +218,6 @@ MonoBehaviour:
   ground:
   - {fileID: 1246425204484710123, guid: 114df30d51bf54d88b44df7b20fe12d4, type: 3}
   - {fileID: 1246425204484710123, guid: 59d6c698179f4484f9922a6fcb45e580, type: 3}
-  - {fileID: 1246425204484710123}
 --- !u!1 &3200069606147431635
 GameObject:
   m_ObjectHideFlags: 0
